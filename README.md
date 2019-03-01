@@ -37,7 +37,8 @@ There are some different type of files that you may come across in each course n
 
 | File name | Labels | Description |
 | --------- | :----: | ----------- |
-| Cheat sheet.pdf | 📝 🇸🇪 | Lecture notes from 2016, the first week of class|
+| Cheat sheet.md | 📝 🇸🇪 | Everything necessary to pass the class in one paper. Every method, formula as well as all necessarry standard limits, derivatives, angles and more |
+| Cheat sheet.pdf | 📝 🇸🇪 | Everything necessary to pass the class in one paper. Every method, formula as well as all necessarry standard limits, derivatives, angles and more |
 
 # Purpose of the repository
 <a name="purpose"></a>
