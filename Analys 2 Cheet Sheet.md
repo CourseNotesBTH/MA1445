@@ -121,7 +121,7 @@ m = \int_{x_1}^{x_2} \rho(x)*A(x) dx
 $$
 **Längd av kurva**
 $$
-L = \int_{t_1}^{t_2}\left(\left(\frac{dx}{dt}\right)^2+\left(\frac{dx}{dt}\right)^2\right)^{1/2}dt \\
+L = \int_{t_1}^{t_2}\left(\left(\frac{dx}{dt}\right)^2+\left(\frac{dy}{dt}\right)^2\right)^{1/2}dt \\
 $$
 
 $$
@@ -277,9 +277,7 @@ $$
 ### 3 Längd av Kurva
 
 $$
-dL = \sqrt{(dx)^2+(dy)^2} = \left(\left(\frac{dx}{dt}\right)^2\left(\frac{dx}{dt}\right)^2\right)^{1/2}dt \\
-
-\implies L = \int_{t_1}^{t_2}\left(\left(\frac{dx}{dt}\right)^2\left(\frac{dx}{dt}\right)^2\right)^{1/2}dt
+L = \int_L \sqrt{(dx)^2+(dy)^2} = \int_L\sqrt{(dx)^2+(dy)^2}*\frac{dx}{dx} = \int_a^b\sqrt{\left(\frac{dx}{dx}\right)^2\left(\frac{dy}{dx}\right)^2} dx= \int_a^b \sqrt{1+(y')^2}dx
 $$
 
 ### 4  Mantelarea
@@ -303,8 +301,7 @@ $$
 ### 6 Tröghetsmomentet
 
 $$
-dE = \frac{V^2}{2}dm = \frac{(\omega r)^2}{2}dm \\
-E = \int_k \frac{\omega^2 r^2}{2}dm = \frac{\omega^2}{2}*\int_k r^2 dm \implies I = \int_k r^2 dm
+2E = \int V^2dm = \int \omega^2r^2dm = \omega^2 \int r^2dm \implies I=\int r^2 dm
 $$
 
 ### 7 Första ordningens diff
@@ -375,10 +372,10 @@ $$
 $$
 y'+g(x)y=f(x)y^n \\
 y=Z^{\frac{1}{1-n}} \\
-y'=\frac{1}{1-n}Z^{\frac{1}{1-n}-1}*Z' = \frac{Z^{\frac{1}{1-n}}*Z'}{1-n} \\
+y'=\frac{Z^{\frac{1}{1-n}}*Z'}{1-n} \\
 \text{Insättning ger} \\
 \frac{Z^{\frac{1}{1-n}}*Z'}{1-n}+g(x)Z^{\frac{1}{1-n}} = f(x)Z^{\frac{n}{1-n}} \\
-\frac{Z'}{1-n}+g(x)Z^{\frac{1}{1-n}-\frac{n}{1-n}} = f(x) \\
+
 Z'+(1-n)g(x)Z=(1-n)f(x)
 $$
 
